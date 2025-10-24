@@ -39,3 +39,8 @@
 
 # debug information files
 *.dwo
+
+# project shit
+/tree.png
+/tree.dot
+/main
