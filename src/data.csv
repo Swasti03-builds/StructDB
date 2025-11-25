@@ -1,132 +1,126 @@
-cs,ds,sorting,types of sorting,complexities,gfg link
-cs,ds,binarytree,red black,gfg link
-cs,ds,binarytree,avl,gfg link
-cs,algorithms,search,binary search,complexities,lecture notes
-algorithms,dp,knapsack,0-1 knapsack,complexities,gfg link
-algorithms,dp,longest common subsequence,lcs derivation,gfg link
-algorithms,greedy,activity selection,proof sketch,gfg link
-algorithms,graphs,representation,adjacency list,gfg link
-graphs,traversal,dfs,recursive dfs,analysis,blog post
-graphs,traversal,bfs,shortest unweighted,gfg link
-graphs,shortest path,dijkstra,min-heap implementation,complexities,gfg link
-graphs,shortest path,bellman ford,negative edges,analysis,gfg link
-graphs,algorithms,topological sort,dag,applications,notes
-graphs,algorithms,tarjan,scc,proof,gfg link
-algorithms,complexity,nP,NP-complete,reductions,lecture notes
-theory,automata,regular expressions,nfa to dfa,examples,gfg link
-theory,logic,boolean algebra,karnaugh map,optimization,cheatsheet
-cs,programming,c++ basics,headers,compilation,guides
-programming,c++ advanced,templates,meta programming,tutorial
-programming,stl,vector,list,map,usage examples,cppreference
-programming,debugging,gdb,breakpoints,watchpoints,tutorial
-os,processes,threads,context switch,performance,lecture notes
-os,concurrency,mutex,deadlock prevention,examples,gfg link
-concurrency,parallelism,openMP,practical tips,benchmarks,article
-os,scheduling,round robin,priority scheduling,analysis,notes
-databases,sql,joins,inner join vs outer join,examples,gfg link
-databases,transactions,ACID,consistency,examples,blog post
-databases,storage,indexing,B-tree,B+ tree comparison,gfg link
-databases,query planning,joins,hash join,merge join,notes
-data engineering,etl,pipelines,airflow,dag scheduling,docs
-networks,layered model,tcp/ip,handshake,tutorial,gfg link
-networks,protocols,http,rest api,methods,cheatsheet
-web,api,rest,json,serialization,examples,blog post
-web,api,authentication,oauth2,jwt,security notes
-security,crypto,hashing,sha256,properties,article
-crypto,asymmetric,rsa,key generation,math notes
-math,probability,bayes theorem,examples,lecture notes
-ml,supervised,regression,linear regression,loss functions,notebook
-ml,supervised,classifcation,logistic regression,regularization,article
-ml,neural networks,perceptron,activation functions,notes,gfg link
-ml,deep learning,backprop,gradients,optimizers,tutorial
-ml,optimization,sgd,momentum,adam,practical guide
-statistics,descriptive,mean median mode,examples,cheatsheet
-statistics,inferential,hypothesis testing,p-values,notes,gfg link
-algorithms,search,binary search tree,insertion,deletion,analysis
-ds,trees,traversal,inorder preorder postorder,applications,notes
-ds,trees,segment tree,range queries,implementation,gfg link
-ds,trees,fenwick tree,bit indexed tree,prefix sums,article
-ds,hashing,hash table,chaining open addressing,complexities,guide
-ds,heap,priority queue,heapify,applications,notes
-algorithms,sorting,quick sort,partition schemes,analysis,gfg link
-algorithms,sorting,merge sort,divide and conquer,stability,article
-algorithms,sorting,heap sort,in-place,complexities,notes
-algorithms,sorting,radix sort,non-comparison sort,applications,blog
-cs,theory,complexity classes,P vs NP,open problem,papers,discussion
-cs,theory,reductions,subset sum,to knapsack,examples,notes
-software,engineering,design patterns,singleton,usage,anti-patterns
-software,engineering,design patterns,observer,event driven,examples
-software,engineering,architecture,microservices,pros cons,case study
-system design,scaling,caching,LRU eviction,cache invalidation,article
-system design,scaling,load balancing,round robin sticky sessions,notes
-distributed,consensus,raft,leader election,implementation,blog post
-distributed,consistency,CAP theorem,tradeoffs,examples,lecture notes
-distributed,storage,replication,sharding,partitioning,guide
-os,virtualization,containers,docker images,layering,docs
-devops,ci/cd,jenkins,pipelines,examples,article
-devops,ci/cd,github actions,workflows,examples,docs
-monitoring,logging,elk,logstash reading,examples,guide
-monitoring,metrics,prometheus,alerts,exporters,docs
-testing,unit tests,gtest,assertions,examples,guide
-testing,integration tests,mocks,stubs,patterns,notes
-programming,paradigms,functional programming,immutable data,examples
-programming,language,python,syntax,ecosystem,cheatsheet
-python,libraries,numpy,arrays,vectorization,tutorial
-python,libraries,pandas,dataframes,groupby,real examples,notebook
-data science,feature engineering,scaling,one hot encoding,examples,blog
-ml,unsupervised,clustering,k-means,elbow method,exercise
-ml,unsupervised,dimensionality reduction,pca,svd,notes
-math,linear algebra,matrix decomposition,eigenvalues,cheatsheet
-algorithms,approximation,greedy set cover,heuristics,examples,article
-algorithms,randomized,quickselect,expected complexity,notes,gfg link
-security,web,csrf,xss,prevention,tutorial
-web,frontend,html,css,basics,cheatsheet
-frontend,js,dom,events,async patterns,examples
-js,framework,react,components,state hooks,examples,blog post
-frontend,perf,critical rendering path,optimizations,guide
-system design,datastores,NoSQL,mongodb,document model,case study
-databases,design,normalization,3NF,benefits,examples
-databases,design,denormalization,read performance,tradeoffs,notes
-data structures,tries,prefix search,autocompletion,implementation,gfg link
-algorithms,string,kmp,pattern matching,complexities,notes
-algorithms,string,rolling hash,rabin karp,applications,article
-math,number theory,modular arithmetic,fast exponentiation,cheatsheet
-algorithms,bitwise,tricks,masking,example problems,blog
-competitive programming,templates,fast io,practice setup,repo link
-cp,problems,divide and conquer,example problems,editorial,notes
-graphs,applications,network flow,ford fulkerson,max flow,min cut,notes
-algorithms,flow,edmonds karp,bfs augmenting path,implementation,gfg link
-ml,model evaluation,roc auc,precision recall,interpretation,notebook
-ml,production,model serving,tf serving,rest endpoints,guide
-ml,feature stores,feature pipelines,online offline consistency,notes
-data engineering,streaming,kafka,producers consumers,examples,docs
-streaming,processing,spark streaming,microbatches,stateful ops,article
-big data,hadoop,mapreduce,word count,examples,cheatsheet
-distributed,transactions,two phase commit,atomic commit,drawbacks,notes
-security,auth,ssO,saml oauth,enterprise examples,blog post
-web,real time,websockets,event stream,implementations,examples
-programming,concurrency,async await,event loop,nodejs,notes
-nodejs,backend,express,middleware,request pipeline,examples
-backend,frameworks,flask,blueprints,rest apis,tutorial
-api,format,protobuf,serialization binary,performance,article
-serialization,json,binary formats,messagepack,avro,notes
-performance,profiling,flame graphs,hotspots,memory leaks,guide
-memory,management,garbage collection,mark sweep,compact,notes
-cplusplus,modern,smart pointers,unique_ptr,shared_ptr,examples
-cplusplus,standards,c++11,c++17,c++20,features,overview
-cplusplus,templates,variadic templates,metaprogramming,examples,article
-build,tools,cmake,target based,modern cmake,cheatsheet
-build,tools,make,makefile patterns,phony targets,examples
-project,workflow,git,branches,merge strategies,cheatsheet
-git,advanced,rebase,interactive rebase,conflict resolution,guide
-algorithms,optimization,linear programming,simplex,applications,notes
-math,optimization,convex vs nonconvex,properties,lecture notes
-security,blockchain,consensus proof of work,proof of stake,overview,article
-blockchain,data structures,merkle tree,integrity proofs,examples,notes
-networks,wireless,protocols,802.11 layers,examples,cheatsheet
-cs,foundations,discrete math,graphs combinatorics,examples,notes
-teaching,study tips,spaced repetition,anki usage,workflow,blog post
-education,learning,project based learning,capstone projects,guide
-career,interview,system design,scalability questions,prep notes,repo link
-career,interview,behavioral,star method,examples,guide
-CSV
+Computer Science,DSA,Sorting,Quick Sort,Lomuto Partition,GFG Link
+Computer Science,DSA,Sorting,Quick Sort,Hoare Partition,Notes
+Computer Science,DSA,Sorting,Merge Sort,Divide & Conquer,Article
+Computer Science,DSA,Sorting,Heap Sort,Heapify Process,GFG Link
+Computer Science,DSA,Sorting,Radix Sort,Bucket Strategy,Blog
+Computer Science,DSA,Sorting,Counting Sort,Stable Counting,Examples
+Computer Science,DSA,Sorting,Insertion Sort,Step Method,Notes
+Computer Science,DSA,Trees,Binary Tree,BST Operations,Notes
+Computer Science,DSA,Trees,AVL,Rotations,GFG Link
+Computer Science,DSA,Trees,Red-Black Tree,Color Flip,Explanation
+Computer Science,DSA,Trees,Segment Tree,Range Query,Guide
+Computer Science,DSA,Trees,Fenwick Tree,Binary Indexed Tree,Article
+Computer Science,DSA,Trees,Trie,Prefix Search,AutoComplete,Notes
+Computer Science,DSA,Graphs,Representation,Adjacency List,Notes
+Computer Science,DSA,Graphs,Representation,Adjacency Matrix,Notes
+Computer Science,DSA,Graphs,Traversal,DFS Recursive,Blog
+Computer Science,DSA,Graphs,Traversal,BFS Queue,GFG Link
+Computer Science,DSA,Graphs,Shortest Path,Dijkstra,Min Heap Impl
+Computer Science,DSA,Graphs,Shortest Path,Bellman Ford,Negative Edges
+Computer Science,DSA,Graphs,Advanced,Topological Sort,Notes
+Computer Science,DSA,Graphs,Advanced,Tarjan's SCC,GFG Link
+Computer Science,DSA,Graphs,Advanced,Floyd Warshall,All Pairs,Guide
+Computer Science,DSA,Hashing,Hash Table,Collision Handling,Guide
+Computer Science,DSA,Hashing,Open Addressing,Double Hashing,Notes
+Computer Science,DSA,Heap,Priority Queue,Applications,Notes
+
+Computer Science,Programming,C++ Basics,Headers,#include Rules,Guide
+Computer Science,Programming,C++ Basics,Compilation,Build Process,Notes
+Computer Science,Programming,C++ Basics,Variables,Scope Rules,Tutorial
+Computer Science,Programming,Templates,Function Templates,Article
+Computer Science,Programming,Templates,Meta Programming,SFINAE Intro
+Computer Science,Programming,STL,Vector,Operations,CPPReference
+Computer Science,Programming,STL,Map,Balanced Tree Usage,Guide
+Computer Science,Programming,Debugging,GDB,Breakpoints,Tutorial
+
+Computer Science,OS,Processes,Threads,Context Switch,Notes
+Computer Science,OS,Concurrency,Mutex,Deadlock Safety,GFG Link
+Computer Science,OS,Scheduling,Round Robin,Queue Mechanism,Notes
+Computer Science,OS,Memory,Virtual Memory,Page Tables,Tutorial
+Computer Science,OS,Virtualization,Containers,Docker Layers,Docs
+
+Computer Science,Networks,Layered Model,TCP/IP,3-Way Handshake,Tutorial
+Computer Science,Networks,Protocols,HTTP,Methods,CheatSheet
+Computer Science,Networks,Wireless,802.11,Security Modes,Notes
+Computer Science,Networks,Transport,TCP Congestion Control,Guide
+
+Computer Science,Databases,SQL,Joins,Inner vs Outer,Examples
+Computer Science,Databases,Storage,Indexing,B-Tree vs B+ Tree,Guide
+Computer Science,Databases,Transactions,ACID,Consistency,Article
+Computer Science,Databases,Planning,Join Order,Hash/Merge Notes
+
+Computer Science,Software Engineering,Design Patterns,Singleton,Anti-pattern
+Computer Science,Software Engineering,Design Patterns,Observer,Events Handling
+Computer Science,Software Engineering,Architecture,Microservices,Pros & Cons
+
+Computer Science,System Design,Scaling,Caching,LRU Eviction,Article
+Computer Science,System Design,Load Balancing,Round Robin,Notes
+Computer Science,System Design,Storage,NoSQL,Document Model,Case Study
+
+Computer Science,DevOps,CI/CD,Jenkins,Pipeline Setup,Article
+Computer Science,DevOps,CI/CD,GitHub Actions,Workflow Examples
+Computer Science,DevOps,Monitoring,ELK,Logstash Usage,Guide
+Computer Science,DevOps,Metrics,Prometheus,Alert Rules,Docs
+Computer Science,DevOps,Containers,Kubernetes,Deployment YAML,Docs
+
+AI & ML,Supervised Learning,Regression,Linear Regression,Loss Functions,Notebook
+AI & ML,Supervised Learning,Classification,Logistic Regression,Regularization,Article
+AI & ML,Neural Networks,Perceptron,Activation Functions,Notes
+AI & ML,Deep Learning,Backpropagation,Gradients,Optimizers,Tutorial
+AI & ML,Optimization,SGD,Momentum,Contrast,Guide
+AI & ML,Unsupervised Learning,Clustering,K-Means,Elbow Method,Exercise
+AI & ML,Dimensionality Reduction,PCA,SVD Relation,Notes
+AI & ML,Model Evaluation,ROC,AUC Interpretation,Notebook
+AI & ML,Production,Serving,TF-Serving,REST Deploy,Guide
+AI & ML,Feature Store,Pipelines,Online Consistency,Notes
+AI & ML,Neural Networks,CNN,Filters,Image Features,Article
+AI & ML,NLP,Word Embeddings,Word2Vec,Vector Space,Guide
+
+Mathematics,Algebra,Polynomials,Factorization,Quadratic Forms,Study Material
+Mathematics,Linear Algebra,Matrices,Decomposition,Eigenvalues,Cheatsheet
+Mathematics,Probability,Bayes Theorem,Conditional Probability,Lecture Notes
+Mathematics,Number Theory,Mod Arithmetic,Fast Exponentiation,Cheatsheet
+Mathematics,Optimization,Convexity,Properties,Notes
+Mathematics,Geometry,Trigonometry,Unit Circle,Angles,Notes
+
+Statistics,Descriptive Data,Measures,Mean/Median/Mode,Examples
+Statistics,Inferential Data,Hypothesis Testing,P-values,Notes
+Statistics,Regression Analysis,Correlation,Pearson Coefficient,Study Notes
+
+Cyber Security,Cryptography,Hashing,SHA-256,Properties,Article
+Cyber Security,Cryptography,RSA,Key Generation,Math Notes
+Cyber Security,Web Security,CSRF & XSS,Prevention,Tutorial
+Cyber Security,Blockchain,Consensus,PoW vs PoS,Overview
+Cyber Security,Blockchain,Data Structures,Merkle Tree,Integrity Proofs,Notes
+Cyber Security,Network Security,Firewalls,Packet Filtering,Guide
+
+Career & Learning,Interview Prep,System Design,Scalability Qs,Prep Notes
+Career & Learning,Interview Prep,Behavioral,STAR Method,Examples
+Career & Learning,Study Skills,Spaced Repetition,Anki Usage,Blog Post
+Career & Learning,Projects,Labs,Capstone Ideas,Guide
+Career & Learning,Career Roadmap,Software Engineer,Paths,Article
+
+Electronics,Microprocessors,Architecture,Registers,Instruction Cycle,Tutorial
+Electronics,Microprocessors,Pipelining,Stages,Performance,Notes
+Electronics,IoT,Communication,MQTT,Message Broker,Article
+Electronics,IoT,Sensors,Temperature,Calibration,Notes
+Electronics,VLSI,Design,Logic Gates,CMOS Basics,Guide
+Electronics,Control Systems,Feedback,PID Controller,Stability,Notes
+Electronics,Embedded Systems,RTOS,Scheduling Techniques,Doc
+Electronics,Circuits,Op-Amps,Comparator Design,Tutorial
+
+Business,Marketing,Branding,Segmentation,Target Audience,Case Study
+Business,Marketing,Digital Marketing,SEO,Ranking Strategies,Blog
+Business,Finance,Investment,Stocks,Risk Management,Guide
+Business,Finance,Accounting,Balance Sheet,Assets vs Liability,Workbook
+Business,Management,Leadership,Decision Making,Frameworks,Notes
+Business,Entrepreneurship,Startup Basics,Lean Canvas,Customer Fit,Article
+
+Physics,Mechanics,Newton Laws,Force,Equilibrium,Notes
+Physics,Mechanics,Motion,Projectile Motion,Range Formula,Cheatsheet
+Physics,Electricity,Circuits,Ohm's Law,Resistance,Study Notes
+Physics,Electricity,Electromagnetism,Faraday Law,Induced Current,Article
+Physics,Optics,Lenses,Refraction,Real vs Virtual,Guide
+Physics,Thermodynamics,Heat Transfer,Conduction,Examples
+Physics,Quantum Physics,Duality,Double Slit Outcome,Video Link
+Physics,Modern Physics,Relativity,Time Dilation,Theory Notes
