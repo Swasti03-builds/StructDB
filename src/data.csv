@@ -1,3 +1,132 @@
-cs,ds,sorting,types of sorting,complexities, gfg link
+cs,ds,sorting,types of sorting,complexities,gfg link
 cs,ds,binarytree,red black,gfg link
-cs,ds,binarytree,avl, gfg link
+cs,ds,binarytree,avl,gfg link
+cs,algorithms,search,binary search,complexities,lecture notes
+algorithms,dp,knapsack,0-1 knapsack,complexities,gfg link
+algorithms,dp,longest common subsequence,lcs derivation,gfg link
+algorithms,greedy,activity selection,proof sketch,gfg link
+algorithms,graphs,representation,adjacency list,gfg link
+graphs,traversal,dfs,recursive dfs,analysis,blog post
+graphs,traversal,bfs,shortest unweighted,gfg link
+graphs,shortest path,dijkstra,min-heap implementation,complexities,gfg link
+graphs,shortest path,bellman ford,negative edges,analysis,gfg link
+graphs,algorithms,topological sort,dag,applications,notes
+graphs,algorithms,tarjan,scc,proof,gfg link
+algorithms,complexity,nP,NP-complete,reductions,lecture notes
+theory,automata,regular expressions,nfa to dfa,examples,gfg link
+theory,logic,boolean algebra,karnaugh map,optimization,cheatsheet
+cs,programming,c++ basics,headers,compilation,guides
+programming,c++ advanced,templates,meta programming,tutorial
+programming,stl,vector,list,map,usage examples,cppreference
+programming,debugging,gdb,breakpoints,watchpoints,tutorial
+os,processes,threads,context switch,performance,lecture notes
+os,concurrency,mutex,deadlock prevention,examples,gfg link
+concurrency,parallelism,openMP,practical tips,benchmarks,article
+os,scheduling,round robin,priority scheduling,analysis,notes
+databases,sql,joins,inner join vs outer join,examples,gfg link
+databases,transactions,ACID,consistency,examples,blog post
+databases,storage,indexing,B-tree,B+ tree comparison,gfg link
+databases,query planning,joins,hash join,merge join,notes
+data engineering,etl,pipelines,airflow,dag scheduling,docs
+networks,layered model,tcp/ip,handshake,tutorial,gfg link
+networks,protocols,http,rest api,methods,cheatsheet
+web,api,rest,json,serialization,examples,blog post
+web,api,authentication,oauth2,jwt,security notes
+security,crypto,hashing,sha256,properties,article
+crypto,asymmetric,rsa,key generation,math notes
+math,probability,bayes theorem,examples,lecture notes
+ml,supervised,regression,linear regression,loss functions,notebook
+ml,supervised,classifcation,logistic regression,regularization,article
+ml,neural networks,perceptron,activation functions,notes,gfg link
+ml,deep learning,backprop,gradients,optimizers,tutorial
+ml,optimization,sgd,momentum,adam,practical guide
+statistics,descriptive,mean median mode,examples,cheatsheet
+statistics,inferential,hypothesis testing,p-values,notes,gfg link
+algorithms,search,binary search tree,insertion,deletion,analysis
+ds,trees,traversal,inorder preorder postorder,applications,notes
+ds,trees,segment tree,range queries,implementation,gfg link
+ds,trees,fenwick tree,bit indexed tree,prefix sums,article
+ds,hashing,hash table,chaining open addressing,complexities,guide
+ds,heap,priority queue,heapify,applications,notes
+algorithms,sorting,quick sort,partition schemes,analysis,gfg link
+algorithms,sorting,merge sort,divide and conquer,stability,article
+algorithms,sorting,heap sort,in-place,complexities,notes
+algorithms,sorting,radix sort,non-comparison sort,applications,blog
+cs,theory,complexity classes,P vs NP,open problem,papers,discussion
+cs,theory,reductions,subset sum,to knapsack,examples,notes
+software,engineering,design patterns,singleton,usage,anti-patterns
+software,engineering,design patterns,observer,event driven,examples
+software,engineering,architecture,microservices,pros cons,case study
+system design,scaling,caching,LRU eviction,cache invalidation,article
+system design,scaling,load balancing,round robin sticky sessions,notes
+distributed,consensus,raft,leader election,implementation,blog post
+distributed,consistency,CAP theorem,tradeoffs,examples,lecture notes
+distributed,storage,replication,sharding,partitioning,guide
+os,virtualization,containers,docker images,layering,docs
+devops,ci/cd,jenkins,pipelines,examples,article
+devops,ci/cd,github actions,workflows,examples,docs
+monitoring,logging,elk,logstash reading,examples,guide
+monitoring,metrics,prometheus,alerts,exporters,docs
+testing,unit tests,gtest,assertions,examples,guide
+testing,integration tests,mocks,stubs,patterns,notes
+programming,paradigms,functional programming,immutable data,examples
+programming,language,python,syntax,ecosystem,cheatsheet
+python,libraries,numpy,arrays,vectorization,tutorial
+python,libraries,pandas,dataframes,groupby,real examples,notebook
+data science,feature engineering,scaling,one hot encoding,examples,blog
+ml,unsupervised,clustering,k-means,elbow method,exercise
+ml,unsupervised,dimensionality reduction,pca,svd,notes
+math,linear algebra,matrix decomposition,eigenvalues,cheatsheet
+algorithms,approximation,greedy set cover,heuristics,examples,article
+algorithms,randomized,quickselect,expected complexity,notes,gfg link
+security,web,csrf,xss,prevention,tutorial
+web,frontend,html,css,basics,cheatsheet
+frontend,js,dom,events,async patterns,examples
+js,framework,react,components,state hooks,examples,blog post
+frontend,perf,critical rendering path,optimizations,guide
+system design,datastores,NoSQL,mongodb,document model,case study
+databases,design,normalization,3NF,benefits,examples
+databases,design,denormalization,read performance,tradeoffs,notes
+data structures,tries,prefix search,autocompletion,implementation,gfg link
+algorithms,string,kmp,pattern matching,complexities,notes
+algorithms,string,rolling hash,rabin karp,applications,article
+math,number theory,modular arithmetic,fast exponentiation,cheatsheet
+algorithms,bitwise,tricks,masking,example problems,blog
+competitive programming,templates,fast io,practice setup,repo link
+cp,problems,divide and conquer,example problems,editorial,notes
+graphs,applications,network flow,ford fulkerson,max flow,min cut,notes
+algorithms,flow,edmonds karp,bfs augmenting path,implementation,gfg link
+ml,model evaluation,roc auc,precision recall,interpretation,notebook
+ml,production,model serving,tf serving,rest endpoints,guide
+ml,feature stores,feature pipelines,online offline consistency,notes
+data engineering,streaming,kafka,producers consumers,examples,docs
+streaming,processing,spark streaming,microbatches,stateful ops,article
+big data,hadoop,mapreduce,word count,examples,cheatsheet
+distributed,transactions,two phase commit,atomic commit,drawbacks,notes
+security,auth,ssO,saml oauth,enterprise examples,blog post
+web,real time,websockets,event stream,implementations,examples
+programming,concurrency,async await,event loop,nodejs,notes
+nodejs,backend,express,middleware,request pipeline,examples
+backend,frameworks,flask,blueprints,rest apis,tutorial
+api,format,protobuf,serialization binary,performance,article
+serialization,json,binary formats,messagepack,avro,notes
+performance,profiling,flame graphs,hotspots,memory leaks,guide
+memory,management,garbage collection,mark sweep,compact,notes
+cplusplus,modern,smart pointers,unique_ptr,shared_ptr,examples
+cplusplus,standards,c++11,c++17,c++20,features,overview
+cplusplus,templates,variadic templates,metaprogramming,examples,article
+build,tools,cmake,target based,modern cmake,cheatsheet
+build,tools,make,makefile patterns,phony targets,examples
+project,workflow,git,branches,merge strategies,cheatsheet
+git,advanced,rebase,interactive rebase,conflict resolution,guide
+algorithms,optimization,linear programming,simplex,applications,notes
+math,optimization,convex vs nonconvex,properties,lecture notes
+security,blockchain,consensus proof of work,proof of stake,overview,article
+blockchain,data structures,merkle tree,integrity proofs,examples,notes
+networks,wireless,protocols,802.11 layers,examples,cheatsheet
+cs,foundations,discrete math,graphs combinatorics,examples,notes
+teaching,study tips,spaced repetition,anki usage,workflow,blog post
+education,learning,project based learning,capstone projects,guide
+career,interview,system design,scalability questions,prep notes,repo link
+career,interview,behavioral,star method,examples,guide
+CSV

@@ -2,6 +2,37 @@
 
 Graph::Graph() {}
 
+void Graph::addPathFromCSV(const string &csvPath)
+{
+    ifstream file(csvPath);
+    if (!file.is_open()) {
+        cerr << "Error opening CSV file: " << csvPath << endl;
+        return;
+    }
+
+    string line;
+    while (getline(file, line)) {
+        if (line.empty()) continue;
+
+        vector<string> tokens;
+        tokens.push_back("start");   // prepend start node
+
+        stringstream ss(line);
+        string item;
+
+        while (getline(ss, item, ',')) {
+            // trim spaces
+            item.erase(0, item.find_first_not_of(" \t"));
+            item.erase(item.find_last_not_of(" \t") + 1);
+            tokens.push_back(item);
+        }
+
+        addPath(tokens);
+    }
+
+    file.close();
+}
+
 void Graph::addPath(const vector<string> &path)
 {
     if (path.size() < 2)
@@ -12,14 +43,18 @@ void Graph::addPath(const vector<string> &path)
         const string &u = path[i];
         const string &v = path[i + 1];
 
-        // Directed edge: u → v
-        adj[u].push_back(v);
+        // ensure node exists
+        if (!adj.count(u)) adj[u] = {};
+        if (!adj.count(v)) adj[v] = {};
 
-        // DO NOT add v->u   (this is what makes it directed)
-        if (!adj.count(v)) adj[v] = {}; 
-        // ensures v exists as a node
+        // check if edge u → v already exists
+        auto &nbrs = adj[u];
+        if (find(nbrs.begin(), nbrs.end(), v) == nbrs.end()) {
+            nbrs.push_back(v);   // only add if it's new
+        }
     }
 }
+
 
 void Graph::dfsUtil(const string &node, unordered_set<string> &visited, vector<string> &result)
 {
